@@ -17,8 +17,14 @@ public class SuperGreeter {
         System.out.println("Indtast navn");
         String navn = scanner.next();
         System.out.println("Navn; " + navn);
+        System.out.println("Du er: " + alder() + "år gammel");
     }
+    public int alder(){
+        System.out.println("Indtast alder");
+        int alder = scanner.nextInt();
+        return alder;
 
+    }
 
 
 }
